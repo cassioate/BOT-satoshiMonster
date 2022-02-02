@@ -34,7 +34,7 @@ def searchForHighConfidenceImage(imagem):
     print("Procurando imagem em searchForHighConfidenceImage: "+ imagem)
     contadorProcurarImagem = 0
     img = None
-    confidence = 0.9
+    confidence = os.getenv("CONFIDENCE")
     loading = True
     while img == None:
         img = pyautogui.locateCenterOnScreen('./assets/'+ imagem+'.png', confidence=confidence)
@@ -47,7 +47,7 @@ def procurarImagemSemRetornarErro(imagem):
     loop = True
     contador = 0
     time.sleep(3)
-    confidence = 0.95
+    confidence = os.getenv("CONFIDENCE")
     print("Procurando imagem em procurarImagemSemRetornarErro: "+ imagem)
     img = pyautogui.locateCenterOnScreen('./assets/'+ imagem+'.png', confidence=confidence)
     print(img)
@@ -57,7 +57,7 @@ def procurarImagemSemRetornarErro(imagem):
 
 def procurarLocalizacaoDaImagemPelosEixos(imagem):
     if procurarImagemSemRetornarErro(imagem):
-        confidence = 0.9
+        confidence = os.getenv("CONFIDENCE")
         x, y = pyautogui.locateCenterOnScreen('./assets/'+ imagem+'.png', confidence=confidence)
         return x, y
     else:
@@ -114,12 +114,13 @@ while True:
         while reiniciar == False:
             openTheMenuOfTheTowers()
             print("Entrando em modo de espera por 2 horas")
-            for i in range(6000):
+            for i in range(12000):
                 time.sleep(1)
                 if i % 60 == 0 and procurarImagemSemRetornarErro("nextMap"):
                     pyautogui.click(searchForHighConfidenceImage("nextMap"), duration=1.5)
+                if i == 6000:
+                    print("CHEGAMOS NA METADE")
 
-            time.sleep(7200)
             if procurarImagemSemRetornarErro("meioDaTela") == False:
                 reiniciar = True
 

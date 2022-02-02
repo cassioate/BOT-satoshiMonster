@@ -1,0 +1,6 @@
+crie um arquivo com o nome ".env" e insira os campos abaixo completando com seu email, sua senha e no campo confidence coloque 
+por padrão 0.9 a medida que não for funcionando diminua para 0.8, 0.7 e assim por diante
+
+EMAIL=
+SENHA=
+CONFIDENCE=
