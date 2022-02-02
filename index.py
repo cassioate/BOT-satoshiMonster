@@ -114,7 +114,7 @@ while True:
         while reiniciar == False:
             openTheMenuOfTheTowers()
             print("Entrando em modo de espera por 2 horas")
-            for i in range(12000):
+            for i in range(10000):
                 time.sleep(1)
                 if i % 60 == 0 and procurarImagemSemRetornarErro("nextMap"):
                     pyautogui.click(searchForHighConfidenceImage("nextMap"), duration=1.5)
