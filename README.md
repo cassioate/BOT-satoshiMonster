@@ -1,4 +1,11 @@
+## Faz a boa pra nois
+
+### Smart Chain Wallet(BUSD/BNB):
+
+#### 0xB15bBa32C948C1d76a627E38E8a5068D24870d2c
+
 # Instalação:
+
 ### Baixe e instale o Python pelo [site](https://www.python.org/downloads/) ou pela [windows store](https://www.microsoft.com/p/python-37/9nj46sx7x90p?activetab=pivot:overviewtab).
 
 Se você baixar pelo site é importante marcar a opção para adicionar o
@@ -18,6 +25,7 @@ Aperte a tecla do windows + r e digite "cmd":
 ![launch terminal](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/cmd.png)
 
 ### Navegue até a pasta do bot:
+
 Digite o comando "cd" + caminho que você copiou:
 
 ![cd](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/cd.png)
@@ -28,7 +36,6 @@ Digite o comando "cd" + caminho que você copiou:
 pip install -r requirements.txt
 ```
 
-  
 ![pip](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/pip.png)
 
 ### Pronto! Agora é só iniciar o bot com o comando
