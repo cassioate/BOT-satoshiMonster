@@ -1,0 +1,6 @@
+PyAutoGUI
+opencv-python
+python-dotenv
+
+#pip install opencv-python
+#pip install -r requirements.txt
