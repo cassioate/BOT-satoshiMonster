@@ -8,6 +8,8 @@ dotenv.load_dotenv()
 def conectarFunc():
     connect = True
     login = os.getenv("EMAIL")
+    caracter = pyautogui.hotkey('alt','ctrl', '2')
+    emaildominio = os.getenv("EMAILDOMINIO")
     senha = os.getenv("SENHA")
     pyautogui.keyDown("ctrl")
     pyautogui.press("f5")
@@ -18,7 +20,7 @@ def conectarFunc():
         if (procurarImagemSemRetornarErro("login")):
             x, y = procurarLocalizacaoDaImagemPelosEixos("email")
             pyautogui.click(x, y+30, duration=3)
-            pyautogui.write(login)
+            pyautogui.write(login+caracter+emaildominio)
             x, y = procurarLocalizacaoDaImagemPelosEixos("password")
             pyautogui.click(x, y+30, duration=3)
             pyautogui.write(senha)
