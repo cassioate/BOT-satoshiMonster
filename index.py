@@ -103,10 +103,10 @@ def clickOnTheButtonInGame(x, y):
 
 #CONNECT
 time.sleep(2)
-openTheMenuOfTheTowers()
 while True:
     try:
-        conectarFunc()
+        if procurarImagemSemRetornarErro("meioDaTela") == False:
+            conectarFunc()
         reiniciar = False
         while reiniciar == False:
             openTheMenuOfTheTowers()
