@@ -74,6 +74,9 @@ def openTheMenuOfTheTowers():
     for i in range(4):
         makeTowerWorker(i, x, y)
     closeTheMenuAfterConfirmChanges()
+    print("Reposicionar mouse")
+    time.sleep(1)
+    pyautogui.moveTo(467, 174)
 
 def closeTheMenuAfterConfirmChanges():
     if procurarImagemSemRetornarErro("confirm"):
@@ -110,6 +113,12 @@ while True:
         reiniciar = False
         while reiniciar == False:
             openTheMenuOfTheTowers()
+            print("Entrando em modo de espera por 2 horas")
+            for i in range(6000):
+                time.sleep(1)
+                if i % 60 == 0 and procurarImagemSemRetornarErro("nextMap"):
+                    pyautogui.click(searchForHighConfidenceImage("nextMap"), duration=1.5)
+
             time.sleep(7200)
             if procurarImagemSemRetornarErro("meioDaTela") == False:
                 reiniciar = True
