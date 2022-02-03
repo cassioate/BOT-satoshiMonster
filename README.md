@@ -44,8 +44,6 @@ pip install -r requirements.txt
 
 ### Abra o arquivo .env como txt, com cuidado para não acabar salvando o arquivo como txt, é importante manter o formato do mesmo:
 
-![abrirCom](assets/readme/abrirCom.png)
-
 ![blocoDeNotas](assets/readme/blocoDeNotas.png)
 
 ![blocoDeNotasAberto](assets/readme/blocoDeNotasAberto.png)
