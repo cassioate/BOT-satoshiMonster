@@ -40,7 +40,7 @@ pip install -r requirements.txt
 
 ### Vá até a pasta onde está o bot e renomeie o arquivo .env2 para .env:
 
-![env2](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/env2.png)
+![env2](assets/readme/env2.png)
 
 ### Abra o arquivo .env como txt, com cuidado para não acabar salvando o arquivo como txt, é importante manter o formato do mesmo:
 
