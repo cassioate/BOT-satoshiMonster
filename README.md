@@ -44,21 +44,19 @@ pip install -r requirements.txt
 
 ### Abra o arquivo .env como txt, com cuidado para não acabar salvando o arquivo como txt, é importante manter o formato do mesmo:
 
-![abrirCom](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/abrirCom.png)
+![abrirCom](assets/readme/abrirCom.png)
 
-![abrirCom](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/abrirCom.png)
+![blocoDeNotas](assets/readme/blocoDeNotas.png)
 
-![blocoDeNotas](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotas.png)
+![blocoDeNotasAberto](assets/readme/blocoDeNotasAberto.png)
 
-![blocoDeNotasAberto](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAberto.png)
+![blocoDeNotasAbertoSubstituido](assets/readme/blocoDeNotasAbertoSubstituido.png)
 
-![blocoDeNotasAbertoSubstituido](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAbertoSubstituido.png)
-
-![blocoDeNotasAbertoSubstituidoSalvar](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAbertoSubstituidoSalvar.png)
+![blocoDeNotasAbertoSubstituidoSalvar](assets/readme/blocoDeNotasAbertoSubstituidoSalvar.png)
 
 ### Caso o bot não esteja reconhecendo as imagens, você pode diminuir o valor de confidence para 0.8 ou 0.7, assim por diante:
 
-![confidence](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/confirm.png)
+![confidence](assets/readme/confirm.png)
 
 ### Pronto! Agora é só iniciar o bot com o comando
 
