@@ -54,7 +54,7 @@ pip install -r requirements.txt
 
 ### Caso o bot não esteja reconhecendo as imagens, você pode diminuir o valor de confidence para 0.8 ou 0.7, assim por diante:
 
-![confidence](assets/readme/confirm.png)
+![confidence](assets/readme/confidence.png)
 
 ### Pronto! Agora é só iniciar o bot com o comando
 
