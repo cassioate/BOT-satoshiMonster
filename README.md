@@ -38,6 +38,28 @@ pip install -r requirements.txt
 
 ![pip](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/pip.png)
 
+### Vá até a pasta onde está o bot e renomeie o arquivo .env2 para .env:
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/env2.png)
+
+### Abra o arquivo .env como txt, com cuidado para não acabar salvando o arquivo como txt, é importante manter o formato do mesmo:
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/abrirCom.png)
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/abrirCom.png)
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotas.png)
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAberto.png)
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAbertoSubstituido.png)
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAbertoSubstituidoSalvar.png)
+
+### Caso o bot não esteja reconhecendo as imagens, você pode diminuir o valor de confidence para 0.8 ou 0.7, assim por diante:
+
+![pip](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/confidence.png)
+
 ### Pronto! Agora é só iniciar o bot com o comando
 
 ```
