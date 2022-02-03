@@ -52,13 +52,13 @@ pip install -r requirements.txt
 
 ![blocoDeNotasAberto](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAberto.png)
 
-![blocoDeNotasAbertoSubstituido](https://github.com/cassioate/satoshiMonster/tree/raw/main/assets/readme/blocoDeNotasAbertoSubstituido.png)
+![blocoDeNotasAbertoSubstituido](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAbertoSubstituido.png)
 
-![blocoDeNotasAbertoSubstituidoSalvar](https://github.com/cassioate/satoshiMonster/tree/raw/main/assets/readme/blocoDeNotasAbertoSubstituidoSalvar.png)
+![blocoDeNotasAbertoSubstituidoSalvar](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/blocoDeNotasAbertoSubstituidoSalvar.png)
 
 ### Caso o bot não esteja reconhecendo as imagens, você pode diminuir o valor de confidence para 0.8 ou 0.7, assim por diante:
 
-![confidence](https://github.com/cassioate/satoshiMonster/tree/raw/main/assets/readme/confidence.png)
+![confidence](https://github.com/cassioate/satoshiMonster/tree/main/assets/readme/confidence.png?raw=true)
 
 ### Pronto! Agora é só iniciar o bot com o comando
 
