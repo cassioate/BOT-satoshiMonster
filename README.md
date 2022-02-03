@@ -10,25 +10,25 @@
 
 Se você baixar pelo site é importante marcar a opção para adicionar o
 python ao PATH:
-![Check Add python to PATH](https://github.com/mpcabete/bombcrypto-bot/raw/ee1b3890e67bc30e372359db9ae3feebc9c928d8/readme-images/path.png)
+![Check Add python to PATH](assets/readme/path.png)
 
 ### Realize o download do codigo no formato zip, e extraia o arquivo.
 
 ### Copie o caminho até a pasta do bot:
 
-![caminho](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/address.png)
+![caminho](assets/readme/address.png)
 
 ### Abra o terminal.
 
 Aperte a tecla do windows + r e digite "cmd":
 
-![launch terminal](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/cmd.png)
+![launch terminal](assets/readme/cmd.png)
 
 ### Navegue até a pasta do bot:
 
 Digite o comando "cd" + caminho que você copiou:
 
-![cd](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/cd.png)
+![cd](assets/readme/cd.png)
 
 ### Instale as dependências:
 
@@ -36,7 +36,7 @@ Digite o comando "cd" + caminho que você copiou:
 pip install -r requirements.txt
 ```
 
-![pip](https://github.com/mpcabete/bombcrypto-bot/raw/main/readme-images/pip.png)
+![pip](assets/readme/pip.png)
 
 ### Vá até a pasta onde está o bot e renomeie o arquivo .env2 para .env:
 
