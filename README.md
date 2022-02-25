@@ -1,3 +1,5 @@
+##Bot criado de forma rapida e sem a intenção de se aprofundar em codigo, apenas para execução rapida e pessoal
+
 ## Faz a boa pra nois
 
 ### Smart Chain Wallet(BUSD/BNB):
