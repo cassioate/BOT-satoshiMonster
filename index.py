@@ -116,14 +116,13 @@ while True:
             openTheMenuOfTheTowers()
             print("Entrando em modo de espera por 2 horas")
             for i in range(10000):
-                time.sleep(1)
+                time.sleep(1) 
+                if i % 200 == 0 and procurarImagemSemRetornarErro("meioDaTela") == False:
+                    raise Exception('Erro dentro do for')
                 if i % 60 == 0 and procurarImagemSemRetornarErro("nextMap"):
                     pyautogui.click(searchForHighConfidenceImage("nextMap"), duration=1.5)
                 if i == 5000:
-                    print("CHEGAMOS NA METADE")
-
-            if procurarImagemSemRetornarErro("meioDaTela") == False:
-                reiniciar = True
+                    print("CHEGAMOS NA METADE")           
 
     except BaseException as err:
         print("Ocorreu um ERRO:")
